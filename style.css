@@ -1,4 +1,5 @@
 body{
+    
    
 }
 
@@ -7,6 +8,7 @@ text-align: center;
 background-color: #333;
 color: #f4f4f4;
 padding: 20px;
+
 }
 
 footer{
@@ -45,6 +47,13 @@ color: #fff;
 
 .container{
 max-width: 1000px;
-margin: auto;
+margin-inline: auto;
 }
 
+@media{
+    max-width: 768px;
+
+    body{
+        transform: translateY(-100px);
+    }
+}
